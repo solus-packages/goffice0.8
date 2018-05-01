@@ -2,30 +2,16 @@
     <Source>
         <Name>goffice0.8</Name>
         <Packager>
-            <Name>Justin Zobel</Name>
-            <Email>justin@solus-project.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Packager>
-        <License>GPL-2.0</License>
+        <License>GPL-2.0-only</License>
+        <PartOf>office</PartOf>
         <Summary xml:lang="en">The GOffice package contains a library of GLib/GTK document centric objects and utilities.</Summary>
         <Description xml:lang="en">The GOffice package contains a library of GLib/GTK document centric objects and utilities.
 </Description>
         <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
     </Source>
-    <Package>
-        <Name>goffice0.8-devel</Name>
-        <Summary xml:lang="en">Development files for goffice0.8</Summary>
-        <Description xml:lang="en">The GOffice package contains a library of GLib/GTK document centric objects and utilities.
-</Description>
-        <PartOf>programming.devel</PartOf>
-        <RuntimeDependencies>
-            <Dependency release="current">goffice0.8</Dependency>
-        </RuntimeDependencies>
-        <Files>
-            <Path fileType="header">/usr/include</Path>
-            <Path fileType="library">/usr/lib64/lib*.so</Path>
-            <Path fileType="data">/usr/lib64/pkgconfig</Path>
-        </Files>
-    </Package>
     <Package>
         <Name>goffice0.8</Name>
         <Summary xml:lang="en">The GOffice package contains a library of GLib/GTK document centric objects and utilities.</Summary>
@@ -33,11 +19,210 @@
 </Description>
         <PartOf>office</PartOf>
         <Files>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/plot_barcol/barcol.so</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/plot_barcol/gog-area-prefs.ui</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/plot_barcol/gog-barcol-prefs.ui</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/plot_barcol/gog-minmax-prefs.ui</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/plot_barcol/plot-types.xml</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/plot_barcol/plugin.xml</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/plot_distrib/distrib.so</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/plot_distrib/gog-boxplot-prefs.ui</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/plot_distrib/gog-double-histogram-prefs.ui</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/plot_distrib/gog-histogram-prefs.ui</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/plot_distrib/plot-types.xml</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/plot_distrib/plugin.xml</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/plot_pie/gog-pie-prefs.ui</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/plot_pie/gog-pie-series.ui</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/plot_pie/gog-ring-prefs.ui</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/plot_pie/pie.so</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/plot_pie/plot-types.xml</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/plot_pie/plugin.xml</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/plot_radar/gog-color-polar-prefs.ui</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/plot_radar/gog-polar-prefs.ui</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/plot_radar/plot-types.xml</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/plot_radar/plugin.xml</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/plot_radar/radar.so</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/plot_surface/gog-xyz-prefs.ui</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/plot_surface/gog-xyz-surface-prefs.ui</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/plot_surface/plot-types.xml</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/plot_surface/plugin.xml</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/plot_surface/surface.so</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/plot_xy/gog-bubble-prefs.ui</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/plot_xy/gog-xy-color-prefs.ui</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/plot_xy/gog-xy-dropbar-prefs.ui</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/plot_xy/gog-xy-prefs.ui</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/plot_xy/gog-xy-series-prefs.ui</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/plot_xy/plot-types.xml</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/plot_xy/plugin.xml</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/plot_xy/xy.so</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/reg_linear/linreg.so</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/reg_linear/plugin.xml</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/reg_linear/reg-types.xml</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/reg_logfit/logfit.so</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/reg_logfit/plugin.xml</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/reg_logfit/reg-types.xml</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/smoothing/gog-exp-smooth.ui</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/smoothing/gog-moving-avg.ui</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/smoothing/plugin.xml</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/smoothing/smoothing.so</Path>
+            <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/smoothing/types.xml</Path>
             <Path fileType="library">/usr/lib64/lib*.so.*</Path>
-            <Path fileType="library">/usr/lib64/goffice</Path>
-            <Path fileType="data">/usr/share/goffice</Path>
-            <Path fileType="data">/usr/share/pixmaps</Path>
+            <Path fileType="data">/usr/share/goffice/0.8.17/patterns/svg-patterns.xml</Path>
+            <Path fileType="data">/usr/share/goffice/0.8.17/ui/go-3d-rotation-sel.ui</Path>
+            <Path fileType="data">/usr/share/goffice/0.8.17/ui/go-font-sel.ui</Path>
+            <Path fileType="data">/usr/share/goffice/0.8.17/ui/go-format-sel.ui</Path>
+            <Path fileType="data">/usr/share/goffice/0.8.17/ui/go-image-save-dialog-extra.ui</Path>
+            <Path fileType="data">/usr/share/goffice/0.8.17/ui/go-image-sel.ui</Path>
+            <Path fileType="data">/usr/share/goffice/0.8.17/ui/go-rotation-sel.ui</Path>
+            <Path fileType="data">/usr/share/goffice/0.8.17/ui/go-style-prefs.ui</Path>
+            <Path fileType="data">/usr/share/goffice/0.8.17/ui/gog-3d-box-prefs.ui</Path>
+            <Path fileType="data">/usr/share/goffice/0.8.17/ui/gog-axis-prefs.ui</Path>
+            <Path fileType="data">/usr/share/goffice/0.8.17/ui/gog-equation-prefs.ui</Path>
+            <Path fileType="data">/usr/share/goffice/0.8.17/ui/gog-error-bar-prefs.ui</Path>
+            <Path fileType="data">/usr/share/goffice/0.8.17/ui/gog-graph-prefs.ui</Path>
+            <Path fileType="data">/usr/share/goffice/0.8.17/ui/gog-guru-type-selector.ui</Path>
+            <Path fileType="data">/usr/share/goffice/0.8.17/ui/gog-guru.ui</Path>
+            <Path fileType="data">/usr/share/goffice/0.8.17/ui/gog-object-prefs.ui</Path>
+            <Path fileType="data">/usr/share/goffice/0.8.17/ui/gog-plot-prefs.ui</Path>
+            <Path fileType="data">/usr/share/goffice/0.8.17/ui/gog-reg-curve-prefs.ui</Path>
+            <Path fileType="data">/usr/share/goffice/0.8.17/ui/gog-reg-eqn-prefs.ui</Path>
+            <Path fileType="data">/usr/share/goffice/0.8.17/ui/gog-series-prefs.ui</Path>
             <Path fileType="localedata">/usr/share/locale</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/area.xpm</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/bar-hboth.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/bar-hminus.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/bar-hplus.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/bar-none.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/bar-vboth.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/bar-vminus.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/bar-vplus.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/bar.xpm</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/bubble.xpm</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_area_1_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_area_1_2.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_area_1_3.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_bar_1_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_bar_1_2.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_bar_1_3.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_bar_2_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_bar_2_2.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_bar_2_3.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_boxplot_1_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_boxplot_1_2.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_boxplot_2_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_boxplot_2_2.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_bubble_1_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_color_polar_1_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_colored_1_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_column_1_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_column_1_2.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_column_1_3.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_column_2_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_column_2_2.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_column_2_3.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_column_3_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_cone_1_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_cone_1_2.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_cone_1_3.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_cone_2_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_cone_2_2.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_cone_2_3.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_cone_3_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_contour_1_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_contour_2_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_cylinder_1_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_cylinder_1_2.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_cylinder_1_3.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_cylinder_2_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_cylinder_2_2.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_cylinder_2_3.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_cylinder_3_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_dropbar_1_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_dropbar_1_2.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_dropbar_1_3.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_dropbar_1_4.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_histogram_1_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_histogram_1_3.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_histogram_1_4.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_histogram_2_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_line_1_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_line_1_2.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_line_1_3.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_line_2_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_line_2_2.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_line_2_3.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_line_3_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_minmax_1_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_minmax_1_2.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_minmax_2_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_minmax_2_2.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_pie_1_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_pie_1_2.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_pie_1_3.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_pie_2_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_pie_2_2.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_pie_2_3.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_pie_3_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_pie_3_2.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_polar_1_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_prob_1_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_pyramid_1_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_pyramid_1_2.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_pyramid_1_3.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_pyramid_2_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_pyramid_2_2.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_pyramid_2_3.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_pyramid_3_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_radar_1_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_radar_1_2.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_radar_1_3.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_ring_1_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_ring_1_2.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_scatter_1_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_scatter_2_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_scatter_2_2.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_scatter_3_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_scatter_3_2.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_scatter_3_3.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_scatter_4_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_scatter_4_2.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_scatter_4_3.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_scatter_4_4.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_stock_1_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_stock_1_2.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_stock_2_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_stock_2_2.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_surface_2_1.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/chart_surface_2_2.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/color.xpm</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/column.xpm</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/contour.xpm</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/dist.xpm</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/doughnut.xpm</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/dropbar.xpm</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/linegraph.xpm</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/minmax.xpm</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/pie.xpm</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/polar.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/radar.xpm</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/scatter.xpm</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/stock.xpm</Path>
+            <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/surface.xpm</Path>
+        </Files>
+    </Package>
+    <Package>
+        <Name>goffice0.8-devel</Name>
+        <Summary xml:lang="en">Development files for goffice0.8</Summary>
+        <Description xml:lang="en">The GOffice package contains a library of GLib/GTK document centric objects and utilities.
+</Description>
+        <PartOf>programming.devel</PartOf>
+        <RuntimeDependencies>
+            <Dependency release="2">goffice0.8</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="header">/usr/include/</Path>
+            <Path fileType="library">/usr/lib64/lib*.so</Path>
+            <Path fileType="data">/usr/lib64/pkgconfig/*.pc</Path>
         </Files>
     </Package>
     <Package>
@@ -46,20 +231,17 @@
         <Description xml:lang="en">The GOffice package contains a library of GLib/GTK document centric objects and utilities.
 </Description>
         <PartOf>programming.docs</PartOf>
-        <RuntimeDependencies>
-            <Dependency release="current">goffice0.8</Dependency>
-        </RuntimeDependencies>
         <Files>
-            <Path fileType="doc">/usr/share/gtk-doc</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/</Path>
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2015-12-21</Date>
+        <Update release="2">
+            <Date>2018-04-30</Date>
             <Version>0.8.17</Version>
             <Comment>Packaging update</Comment>
-            <Name>Justin Zobel</Name>
-            <Email>justin@solus-project.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Update>
     </History>
 </PISI>
