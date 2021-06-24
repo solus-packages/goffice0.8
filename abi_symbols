@@ -1,8 +1,6 @@
 barcol.so:__bss_start
 barcol.so:_edata
 barcol.so:_end
-barcol.so:_fini
-barcol.so:_init
 barcol.so:go_plugin_depends
 barcol.so:go_plugin_header
 barcol.so:go_plugin_init
@@ -42,8 +40,6 @@ barcol.so:gog_series1_5d_register_type
 distrib.so:__bss_start
 distrib.so:_edata
 distrib.so:_end
-distrib.so:_fini
-distrib.so:_init
 distrib.so:go_distribution_pref_new
 distrib.so:go_plugin_depends
 distrib.so:go_plugin_header
@@ -76,7 +72,6 @@ libgoffice-0.8.so.8:GOPriorityName
 libgoffice-0.8.so.8:__bss_start
 libgoffice-0.8.so.8:_edata
 libgoffice-0.8.so.8:_end
-libgoffice-0.8.so.8:_fini
 libgoffice-0.8.so.8:_go_combo_is_updating
 libgoffice-0.8.so.8:_go_conf_init
 libgoffice-0.8.so.8:_go_conf_shutdown
@@ -103,7 +98,6 @@ libgoffice-0.8.so.8:_gog_plugin_services_init
 libgoffice-0.8.so.8:_gog_plugin_services_shutdown
 libgoffice-0.8.so.8:_gog_themes_init
 libgoffice-0.8.so.8:_gog_themes_shutdown
-libgoffice-0.8.so.8:_init
 libgoffice-0.8.so.8:default_color_set
 libgoffice-0.8.so.8:go_3d_rotation_sel_get_fov
 libgoffice-0.8.so.8:go_3d_rotation_sel_get_matrix
@@ -1710,8 +1704,6 @@ libgoffice-0.8.so.8:libgoffice_shutdown
 linreg.so:__bss_start
 linreg.so:_edata
 linreg.so:_end
-linreg.so:_fini
-linreg.so:_init
 linreg.so:go_plugin_depends
 linreg.so:go_plugin_header
 linreg.so:go_plugin_init
@@ -1729,8 +1721,6 @@ linreg.so:gog_power_reg_curve_register_type
 logfit.so:__bss_start
 logfit.so:_edata
 logfit.so:_end
-logfit.so:_fini
-logfit.so:_init
 logfit.so:go_plugin_depends
 logfit.so:go_plugin_header
 logfit.so:go_plugin_init
@@ -1740,8 +1730,6 @@ logfit.so:gog_log_fit_curve_register_type
 pie.so:__bss_start
 pie.so:_edata
 pie.so:_end
-pie.so:_fini
-pie.so:_init
 pie.so:go_plugin_depends
 pie.so:go_plugin_header
 pie.so:go_plugin_init
@@ -1761,8 +1749,6 @@ pie.so:gog_ring_plot_register_type
 radar.so:__bss_start
 radar.so:_edata
 radar.so:_end
-radar.so:_fini
-radar.so:_init
 radar.so:go_plugin_depends
 radar.so:go_plugin_header
 radar.so:go_plugin_init
@@ -1786,8 +1772,6 @@ radar.so:gog_rt_view_register_type
 smoothing.so:__bss_start
 smoothing.so:_edata
 smoothing.so:_end
-smoothing.so:_fini
-smoothing.so:_init
 smoothing.so:go_plugin_depends
 smoothing.so:go_plugin_header
 smoothing.so:go_plugin_init
@@ -1799,8 +1783,6 @@ smoothing.so:gog_moving_avg_register_type
 surface.so:__bss_start
 surface.so:_edata
 surface.so:_end
-surface.so:_fini
-surface.so:_init
 surface.so:go_plugin_depends
 surface.so:go_plugin_header
 surface.so:go_plugin_init
@@ -1832,8 +1814,6 @@ surface.so:xl_xyz_series_register_type
 xy.so:__bss_start
 xy.so:_edata
 xy.so:_end
-xy.so:_fini
-xy.so:_init
 xy.so:go_plugin_depends
 xy.so:go_plugin_header
 xy.so:go_plugin_init

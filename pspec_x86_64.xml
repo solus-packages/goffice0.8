@@ -2,19 +2,19 @@
     <Source>
         <Name>goffice0.8</Name>
         <Packager>
-            <Name>Pierre-Yves</Name>
-            <Email>pyu@riseup.net</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@getsol.us</Email>
         </Packager>
         <License>GPL-2.0-only</License>
         <PartOf>office</PartOf>
-        <Summary xml:lang="en">The GOffice package contains a library of GLib/GTK document centric objects and utilities.</Summary>
+        <Summary xml:lang="en">The GOffice package contains a library of GLib/GTK document centric objects and utilities</Summary>
         <Description xml:lang="en">The GOffice package contains a library of GLib/GTK document centric objects and utilities.
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>goffice0.8</Name>
-        <Summary xml:lang="en">The GOffice package contains a library of GLib/GTK document centric objects and utilities.</Summary>
+        <Summary xml:lang="en">The GOffice package contains a library of GLib/GTK document centric objects and utilities</Summary>
         <Description xml:lang="en">The GOffice package contains a library of GLib/GTK document centric objects and utilities.
 </Description>
         <PartOf>office</PartOf>
@@ -66,7 +66,8 @@
             <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/smoothing/plugin.xml</Path>
             <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/smoothing/smoothing.so</Path>
             <Path fileType="library">/usr/lib64/goffice/0.8.17/plugins/smoothing/types.xml</Path>
-            <Path fileType="library">/usr/lib64/lib*.so.*</Path>
+            <Path fileType="library">/usr/lib64/libgoffice-0.8.so.8</Path>
+            <Path fileType="library">/usr/lib64/libgoffice-0.8.so.8.0.17</Path>
             <Path fileType="data">/usr/share/goffice/0.8.17/patterns/svg-patterns.xml</Path>
             <Path fileType="data">/usr/share/goffice/0.8.17/ui/go-3d-rotation-sel.ui</Path>
             <Path fileType="data">/usr/share/goffice/0.8.17/ui/go-font-sel.ui</Path>
@@ -87,7 +88,57 @@
             <Path fileType="data">/usr/share/goffice/0.8.17/ui/gog-reg-curve-prefs.ui</Path>
             <Path fileType="data">/usr/share/goffice/0.8.17/ui/gog-reg-eqn-prefs.ui</Path>
             <Path fileType="data">/usr/share/goffice/0.8.17/ui/gog-series-prefs.ui</Path>
-            <Path fileType="localedata">/usr/share/locale</Path>
+            <Path fileType="localedata">/usr/share/locale/am/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ar/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ast/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/az/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/bg/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ca/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ca@valencia/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/cs/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/da/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/de/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/el/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/en_CA/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/en_GB/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/es/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/et/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/eu/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/fi/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/fr/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ga/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/gl/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/he/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/hr/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/hu/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/it/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ja/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ko/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/lt/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/lv/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ml/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/mr/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ms/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/nb/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/nl/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/nn/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/oc/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pl/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pt/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pt_BR/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ro/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ru/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sk/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sl/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sr/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sr@latin/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sv/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/tr/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/uk/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/vi/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/zh_CN/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/zh_HK/LC_MESSAGES/goffice-0.8.17.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/zh_TW/LC_MESSAGES/goffice-0.8.17.mo</Path>
             <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/area.xpm</Path>
             <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/bar-hboth.png</Path>
             <Path fileType="data">/usr/share/pixmaps/goffice/0.8.17/bar-hminus.png</Path>
@@ -217,12 +268,176 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="2">goffice0.8</Dependency>
+            <Dependency release="3">goffice0.8</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="header">/usr/include/</Path>
-            <Path fileType="library">/usr/lib64/lib*.so</Path>
-            <Path fileType="data">/usr/lib64/pkgconfig/*.pc</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/app/error-info.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/app/file.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/app/go-cmd-context-impl.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/app/go-cmd-context.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/app/go-conf.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/app/go-doc-control-impl.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/app/go-doc-control.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/app/go-doc-impl.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/app/go-doc.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/app/go-plugin-loader-module.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/app/go-plugin-loader.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/app/go-plugin-service-impl.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/app/go-plugin-service.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/app/go-plugin.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/app/goffice-app.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/app/io-context-priv.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/app/io-context.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/app/module-plugin-defs.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/canvas/goc-arc.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/canvas/goc-canvas.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/canvas/goc-circle.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/canvas/goc-ellipse.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/canvas/goc-graph.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/canvas/goc-group.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/canvas/goc-item.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/canvas/goc-line.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/canvas/goc-path.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/canvas/goc-pixbuf.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/canvas/goc-polygon.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/canvas/goc-polyline.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/canvas/goc-rectangle.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/canvas/goc-structs.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/canvas/goc-styled-item.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/canvas/goc-text.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/canvas/goc-utils.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/canvas/goc-widget.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/canvas/goffice-canvas.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/component/go-component-factory.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/component/go-component.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/component/goffice-component.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/data/go-data-impl.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/data/go-data-simple.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/data/go-data.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/data/goffice-data.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/drawing/god-anchor.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/drawing/god-default-attributes.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/drawing/god-drawing-group.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/drawing/god-drawing-renderer-gdk.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/drawing/god-drawing-view.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/drawing/god-drawing.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/drawing/god-image-store.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/drawing/god-image.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/drawing/god-paragraph-attributes.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/drawing/god-property-table.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/drawing/god-shape.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/drawing/god-text-model.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/goffice-features.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/goffice.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/graph/goffice-graph.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/graph/gog-3d-box.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/graph/gog-axis-line-impl.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/graph/gog-axis-line.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/graph/gog-axis.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/graph/gog-chart-impl.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/graph/gog-chart-map-3d.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/graph/gog-chart-map.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/graph/gog-chart.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/graph/gog-child-button.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/graph/gog-data-allocator.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/graph/gog-data-set.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/graph/gog-error-bar.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/graph/gog-graph-impl.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/graph/gog-graph.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/graph/gog-grid-line.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/graph/gog-grid.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/graph/gog-guru.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/graph/gog-label.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/graph/gog-legend.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/graph/gog-object-xml.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/graph/gog-object.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/graph/gog-outlined-object.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/graph/gog-plot-engine.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/graph/gog-plot-impl.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/graph/gog-plot.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/graph/gog-reg-curve.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/graph/gog-renderer.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/graph/gog-series-impl.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/graph/gog-series-lines.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/graph/gog-series.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/graph/gog-smoothed-curve.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/graph/gog-styled-object.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/graph/gog-theme.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/graph/gog-trend-line.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/graph/gog-view.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/gtk/go-3d-rotation-sel.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/gtk/go-action-combo-color.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/gtk/go-action-combo-pixmaps.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/gtk/go-action-combo-stack.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/gtk/go-action-combo-text.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/gtk/go-calendar-button.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/gtk/go-charmap-sel.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/gtk/go-color-group.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/gtk/go-color-palette.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/gtk/go-color-selector.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/gtk/go-combo-box.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/gtk/go-combo-color.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/gtk/go-combo-pixmaps.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/gtk/go-combo-text.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/gtk/go-font-sel.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/gtk/go-format-sel.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/gtk/go-gradient-selector.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/gtk/go-graph-widget.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/gtk/go-image-sel.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/gtk/go-line-selector.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/gtk/go-locale-sel.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/gtk/go-marker-selector.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/gtk/go-optionmenu.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/gtk/go-palette.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/gtk/go-pattern-selector.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/gtk/go-pixbuf.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/gtk/go-rotation-sel.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/gtk/go-selector.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/gtk/goffice-gtk.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/math/go-R.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/math/go-complex.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/math/go-cspline.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/math/go-distribution.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/math/go-fft.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/math/go-math.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/math/go-matrix3x3.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/math/go-quad.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/math/go-rangefunc.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/math/go-regression.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/math/goffice-math.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/ms-compat/go-ms-parser.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/ms-compat/god-drawing-ms-client-handler.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/ms-compat/god-drawing-ms.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/ms-compat/god-image-ms.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/utils/datetime.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/utils/go-bezier.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/utils/go-cairo.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/utils/go-color.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/utils/go-editor.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/utils/go-file.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/utils/go-font.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/utils/go-format.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/utils/go-geometry.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/utils/go-glib-extras.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/utils/go-gradient.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/utils/go-image.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/utils/go-libxml-extras.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/utils/go-line.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/utils/go-locale.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/utils/go-marker.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/utils/go-pango-extras.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/utils/go-path.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/utils/go-pattern.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/utils/go-persist.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/utils/go-string.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/utils/go-style.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/utils/go-styled-object.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/utils/go-undo.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/utils/go-units.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/utils/goffice-utils.h</Path>
+            <Path fileType="header">/usr/include/libgoffice-0.8/goffice/utils/regutf8.h</Path>
+            <Path fileType="library">/usr/lib64/libgoffice-0.8.so</Path>
+            <Path fileType="data">/usr/lib64/pkgconfig/libgoffice-0.8.pc</Path>
         </Files>
     </Package>
     <Package>
@@ -232,16 +447,160 @@
 </Description>
         <PartOf>programming.docs</PartOf>
         <Files>
-            <Path fileType="doc">/usr/share/gtk-doc/html/</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GOCalendarButton.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GOCharmapSel.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GOCmdContext.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GOComboBox.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GOComboColor.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GOComboPixmaps.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GOComboText.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GOComponent.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GOData.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GODataMatrix.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GODataScalar.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GODataVector.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GODoc.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GODocControl.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GOFileOpener.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GOFileSaver.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GOFontSel.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GOFormatSel.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GOGraphWidget.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GOIOContext.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GOLocaleSel.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GOMarker.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GOOptionMenu.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GOPersist.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GOPluginLoader.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GOPluginLoaderModule.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GOPluginService.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GORotationSel.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GOSearchReplace.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GOSelector.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GOStyle.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GOStyledObject.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GocArc.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GocCanvas.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GocCircle.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GocEllipse.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GocGraph.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GocGroup.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GocItem.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GocLine.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GocPixbuf.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GocPolygon.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GocPolyline.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GocRectangle.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GocStyledItem.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GocText.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GocWidget.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/Gog3DBox.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GogAxis.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GogAxisLine.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GogChart.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GogDataAllocator.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GogDataset.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GogErrorBar.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GogGraph.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GogGrid.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GogGridLine.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GogLabel.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GogLegend.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GogObject.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GogOutlinedObject.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GogPlot.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GogRegCurve.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GogRegEqn.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GogRenderer.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GogSeries.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GogSeriesLines.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GogSmoothedCurve.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GogStyledObject.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GogText.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GogTheme.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GogTrendLine.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/GogView.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/ch01.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/ch02.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/ch03.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/ch04.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/ch05.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/ch06.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/ch07.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/ch08.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/ch09.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/ch10.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/ch11.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/ch12.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/ch13.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/ch14.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/ch15.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/ch16.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/ch17.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8-GOArrow.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8-GOBezierSpline.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8-GOCSpline.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8-GOCairo.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8-GOColor.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8-GOComplex.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8-GOComponentFactory.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8-GOEditor.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8-GOFft.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8-GOFile.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8-GOFont.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8-GOFormat.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8-GOGeometry.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8-GOGlibExtras.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8-GOGradient.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8-GOLibxmlExtras.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8-GOLine.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8-GOMath.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8-GOPalette.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8-GOPath.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8-GOPattern.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8-GORange.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8-GOReg.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8-GORegression.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8-GOUndo.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8-GOUrl.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8-GOffice.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8-GogAxisMap.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8-GogChartMap.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8-GogGuru.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8-GogPlotEngine.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8-GogTool.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8-Other-utilities.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8-Other.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8-Simple-structures.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8-Units.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8-go-color-group.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8-go-data-simple.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8-go-distribution.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8-go-image.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8-go-plugin.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8-go-string.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8.devhelp</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/goffice-0.8.devhelp2</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/home.png</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/index.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/index.sgml</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/left.png</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/pt01.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/pt02.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/pt03.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/pt04.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/right.png</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/style.css</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/goffice-0.8/up.png</Path>
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2018-04-30</Date>
+        <Update release="3">
+            <Date>2021-06-24</Date>
             <Version>0.8.17</Version>
             <Comment>Packaging update</Comment>
-            <Name>Pierre-Yves</Name>
-            <Email>pyu@riseup.net</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@getsol.us</Email>
         </Update>
     </History>
 </PISI>
