@@ -979,7 +979,6 @@ libm.so.6:atan2l
 libm.so.6:cos
 libm.so.6:cosh
 libm.so.6:coshl
-libm.so.6:cosl
 libm.so.6:exp
 libm.so.6:expl
 libm.so.6:expm1
@@ -1007,7 +1006,6 @@ libm.so.6:sincos
 libm.so.6:sincosl
 libm.so.6:sinh
 libm.so.6:sinhl
-libm.so.6:sinl
 libm.so.6:sqrt
 libm.so.6:sqrtl
 libm.so.6:tan
